@@ -1,0 +1,67 @@
+.logo-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.logo-section img {
+    width: 150px;
+    height: 100px;
+    z-index: 1;
+    padding: 0.5rem;
+}
+
+.routes NavLink {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+
+}
+
+.search-section {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.search-section input {
+    border-radius: 8px;
+    width: 150px;
+    height: 30px;
+    padding: 1rem;
+    border: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 1rem;
+    padding: 15px 10px;
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+
+}
+
+.link :hover {
+    border-left: 4px solid white;
+    transition: 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    background-color: seagreen;
+}
+
+.icon {
+    font-size: 2rem;
+    display: flex;
+    text-align: center;
+}
+
+.link_text {
+    font-size: 1.2rem;
+}
